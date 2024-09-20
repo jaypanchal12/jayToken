@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct KeyboardResponsiveModifier: ViewModifier {
+struct KeyboardResponsiveModifier: ViewModifier { 
     @State private var currentOffset: CGFloat = 0
 
     func body(content: Content) -> some View {
