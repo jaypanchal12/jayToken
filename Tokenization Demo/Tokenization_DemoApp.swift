@@ -11,7 +11,11 @@ import SwiftUI
 struct Tokenization_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if #available(iOS 15.0, *) {
+                SignUpView()
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }

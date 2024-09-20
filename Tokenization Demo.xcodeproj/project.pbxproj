@@ -8,60 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		8F0BC1772C988540003CC0AD /* Tokenization_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1762C988540003CC0AD /* Tokenization_DemoApp.swift */; };
-		8F0BC1792C988540003CC0AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1782C988540003CC0AD /* ContentView.swift */; };
+		8F0BC1792C988540003CC0AD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1782C988540003CC0AD /* SignUpView.swift */; };
 		8F0BC17B2C988541003CC0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC17A2C988541003CC0AD /* Assets.xcassets */; };
 		8F0BC17E2C988541003CC0AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC17D2C988541003CC0AD /* Preview Assets.xcassets */; };
-		8F0BC1882C988541003CC0AD /* Tokenization_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1872C988541003CC0AD /* Tokenization_DemoTests.swift */; };
-		8F0BC1922C988541003CC0AD /* Tokenization_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1912C988541003CC0AD /* Tokenization_DemoUITests.swift */; };
-		8F0BC1942C988541003CC0AD /* Tokenization_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1932C988541003CC0AD /* Tokenization_DemoUITestsLaunchTests.swift */; };
+		8F0BC1A82C988DB2003CC0AD /* ShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A12C988DB2003CC0AD /* ShadowExtension.swift */; };
+		8F0BC1A92C988DB2003CC0AD /* AppMeasures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A22C988DB2003CC0AD /* AppMeasures.swift */; };
+		8F0BC1AA2C988DB2003CC0AD /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A32C988DB2003CC0AD /* GradientExtension.swift */; };
+		8F0BC1AB2C988DB2003CC0AD /* RadiusExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A42C988DB2003CC0AD /* RadiusExtension.swift */; };
+		8F0BC1AC2C988DB2003CC0AD /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A52C988DB2003CC0AD /* FontExtension.swift */; };
+		8F0BC1AD2C988DB2003CC0AD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A62C988DB2003CC0AD /* ColorExtension.swift */; };
+		8F0BC1AE2C988DB2003CC0AD /* BorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1A72C988DB2003CC0AD /* BorderExtension.swift */; };
+		8F0BC1C32C988FDB003CC0AD /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1B02C988FDB003CC0AD /* Inter-Medium.ttf */; };
+		8F0BC1C42C988FDB003CC0AD /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1B12C988FDB003CC0AD /* Inter-Light.ttf */; };
+		8F0BC1C52C988FDB003CC0AD /* SF-Arabic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1B22C988FDB003CC0AD /* SF-Arabic.ttf */; };
+		8F0BC1C62C988FDB003CC0AD /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1B32C988FDB003CC0AD /* Inter-Thin.ttf */; };
+		8F0BC1C72C988FDB003CC0AD /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1B42C988FDB003CC0AD /* Inter-Bold.ttf */; };
+		8F0BC1D02C988FDB003CC0AD /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1BE2C988FDB003CC0AD /* Inter-Regular.ttf */; };
+		8F0BC1D12C988FDB003CC0AD /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1BF2C988FDB003CC0AD /* Inter-ExtraBold.ttf */; };
+		8F0BC1D22C988FDB003CC0AD /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1C02C988FDB003CC0AD /* Inter-ExtraLight.ttf */; };
+		8F0BC1D32C988FDB003CC0AD /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1C12C988FDB003CC0AD /* Inter-Black.ttf */; };
+		8F0BC1D42C988FDB003CC0AD /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0BC1C22C988FDB003CC0AD /* Inter-SemiBold.ttf */; };
+		8F0BC1F32C9DEDD2003CC0AD /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1F22C9DEDD2003CC0AD /* ConfirmationView.swift */; };
+		8F0BC1F52C9DF2B9003CC0AD /* KeyboardResponsiveModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC1F42C9DF2B9003CC0AD /* KeyboardResponsiveModifier.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8F0BC1842C988541003CC0AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F0BC16B2C988540003CC0AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F0BC1722C988540003CC0AD;
-			remoteInfo = "Tokenization Demo";
-		};
-		8F0BC18E2C988541003CC0AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F0BC16B2C988540003CC0AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F0BC1722C988540003CC0AD;
-			remoteInfo = "Tokenization Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8F0BC1732C988540003CC0AD /* Tokenization Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tokenization Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0BC1762C988540003CC0AD /* Tokenization_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenization_DemoApp.swift; sourceTree = "<group>"; };
-		8F0BC1782C988540003CC0AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F0BC1782C988540003CC0AD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		8F0BC17A2C988541003CC0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F0BC17D2C988541003CC0AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8F0BC1832C988541003CC0AD /* Tokenization DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tokenization DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F0BC1872C988541003CC0AD /* Tokenization_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenization_DemoTests.swift; sourceTree = "<group>"; };
-		8F0BC18D2C988541003CC0AD /* Tokenization DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tokenization DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F0BC1912C988541003CC0AD /* Tokenization_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenization_DemoUITests.swift; sourceTree = "<group>"; };
-		8F0BC1932C988541003CC0AD /* Tokenization_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenization_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F0BC1A12C988DB2003CC0AD /* ShadowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowExtension.swift; sourceTree = "<group>"; };
+		8F0BC1A22C988DB2003CC0AD /* AppMeasures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMeasures.swift; sourceTree = "<group>"; };
+		8F0BC1A32C988DB2003CC0AD /* GradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
+		8F0BC1A42C988DB2003CC0AD /* RadiusExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusExtension.swift; sourceTree = "<group>"; };
+		8F0BC1A52C988DB2003CC0AD /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		8F0BC1A62C988DB2003CC0AD /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8F0BC1A72C988DB2003CC0AD /* BorderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderExtension.swift; sourceTree = "<group>"; };
+		8F0BC1B02C988FDB003CC0AD /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		8F0BC1B12C988FDB003CC0AD /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		8F0BC1B22C988FDB003CC0AD /* SF-Arabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Arabic.ttf"; sourceTree = "<group>"; };
+		8F0BC1B32C988FDB003CC0AD /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		8F0BC1B42C988FDB003CC0AD /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8F0BC1BE2C988FDB003CC0AD /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		8F0BC1BF2C988FDB003CC0AD /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8F0BC1C02C988FDB003CC0AD /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		8F0BC1C12C988FDB003CC0AD /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		8F0BC1C22C988FDB003CC0AD /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		8F0BC1F12C98A24C003CC0AD /* Tokenization-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tokenization-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8F0BC1F22C9DEDD2003CC0AD /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		8F0BC1F42C9DF2B9003CC0AD /* KeyboardResponsiveModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponsiveModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F0BC1702C988540003CC0AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC1802C988541003CC0AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC18A2C988541003CC0AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				8F0BC1752C988540003CC0AD /* Tokenization Demo */,
-				8F0BC1862C988541003CC0AD /* Tokenization DemoTests */,
-				8F0BC1902C988541003CC0AD /* Tokenization DemoUITests */,
 				8F0BC1742C988540003CC0AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				8F0BC1732C988540003CC0AD /* Tokenization Demo.app */,
-				8F0BC1832C988541003CC0AD /* Tokenization DemoTests.xctest */,
-				8F0BC18D2C988541003CC0AD /* Tokenization DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +90,13 @@
 		8F0BC1752C988540003CC0AD /* Tokenization Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8F0BC1F12C98A24C003CC0AD /* Tokenization-Demo-Info.plist */,
+				8F0BC1F42C9DF2B9003CC0AD /* KeyboardResponsiveModifier.swift */,
 				8F0BC1762C988540003CC0AD /* Tokenization_DemoApp.swift */,
-				8F0BC1782C988540003CC0AD /* ContentView.swift */,
+				8F0BC1F22C9DEDD2003CC0AD /* ConfirmationView.swift */,
+				8F0BC1782C988540003CC0AD /* SignUpView.swift */,
+				8F0BC1AF2C988FDB003CC0AD /* Fonts */,
+				8F0BC1A02C988DB2003CC0AD /* Styles */,
 				8F0BC17A2C988541003CC0AD /* Assets.xcassets */,
 				8F0BC17C2C988541003CC0AD /* Preview Content */,
 			);
@@ -110,21 +111,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8F0BC1862C988541003CC0AD /* Tokenization DemoTests */ = {
+		8F0BC1A02C988DB2003CC0AD /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				8F0BC1872C988541003CC0AD /* Tokenization_DemoTests.swift */,
+				8F0BC1A12C988DB2003CC0AD /* ShadowExtension.swift */,
+				8F0BC1A22C988DB2003CC0AD /* AppMeasures.swift */,
+				8F0BC1A32C988DB2003CC0AD /* GradientExtension.swift */,
+				8F0BC1A42C988DB2003CC0AD /* RadiusExtension.swift */,
+				8F0BC1A52C988DB2003CC0AD /* FontExtension.swift */,
+				8F0BC1A62C988DB2003CC0AD /* ColorExtension.swift */,
+				8F0BC1A72C988DB2003CC0AD /* BorderExtension.swift */,
 			);
-			path = "Tokenization DemoTests";
+			path = Styles;
 			sourceTree = "<group>";
 		};
-		8F0BC1902C988541003CC0AD /* Tokenization DemoUITests */ = {
+		8F0BC1AF2C988FDB003CC0AD /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				8F0BC1912C988541003CC0AD /* Tokenization_DemoUITests.swift */,
-				8F0BC1932C988541003CC0AD /* Tokenization_DemoUITestsLaunchTests.swift */,
+				8F0BC1B02C988FDB003CC0AD /* Inter-Medium.ttf */,
+				8F0BC1B12C988FDB003CC0AD /* Inter-Light.ttf */,
+				8F0BC1B22C988FDB003CC0AD /* SF-Arabic.ttf */,
+				8F0BC1B32C988FDB003CC0AD /* Inter-Thin.ttf */,
+				8F0BC1B42C988FDB003CC0AD /* Inter-Bold.ttf */,
+				8F0BC1BE2C988FDB003CC0AD /* Inter-Regular.ttf */,
+				8F0BC1BF2C988FDB003CC0AD /* Inter-ExtraBold.ttf */,
+				8F0BC1C02C988FDB003CC0AD /* Inter-ExtraLight.ttf */,
+				8F0BC1C12C988FDB003CC0AD /* Inter-Black.ttf */,
+				8F0BC1C22C988FDB003CC0AD /* Inter-SemiBold.ttf */,
 			);
-			path = "Tokenization DemoUITests";
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +162,6 @@
 			productReference = 8F0BC1732C988540003CC0AD /* Tokenization Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8F0BC1822C988541003CC0AD /* Tokenization DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0BC19A2C988541003CC0AD /* Build configuration list for PBXNativeTarget "Tokenization DemoTests" */;
-			buildPhases = (
-				8F0BC17F2C988541003CC0AD /* Sources */,
-				8F0BC1802C988541003CC0AD /* Frameworks */,
-				8F0BC1812C988541003CC0AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F0BC1852C988541003CC0AD /* PBXTargetDependency */,
-			);
-			name = "Tokenization DemoTests";
-			productName = "Tokenization DemoTests";
-			productReference = 8F0BC1832C988541003CC0AD /* Tokenization DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8F0BC18C2C988541003CC0AD /* Tokenization DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0BC19D2C988541003CC0AD /* Build configuration list for PBXNativeTarget "Tokenization DemoUITests" */;
-			buildPhases = (
-				8F0BC1892C988541003CC0AD /* Sources */,
-				8F0BC18A2C988541003CC0AD /* Frameworks */,
-				8F0BC18B2C988541003CC0AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F0BC18F2C988541003CC0AD /* PBXTargetDependency */,
-			);
-			name = "Tokenization DemoUITests";
-			productName = "Tokenization DemoUITests";
-			productReference = 8F0BC18D2C988541003CC0AD /* Tokenization DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +174,6 @@
 				TargetAttributes = {
 					8F0BC1722C988540003CC0AD = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					8F0BC1822C988541003CC0AD = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 8F0BC1722C988540003CC0AD;
-					};
-					8F0BC18C2C988541003CC0AD = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 8F0BC1722C988540003CC0AD;
 					};
 				};
 			};
@@ -220,8 +191,6 @@
 			projectRoot = "";
 			targets = (
 				8F0BC1722C988540003CC0AD /* Tokenization Demo */,
-				8F0BC1822C988541003CC0AD /* Tokenization DemoTests */,
-				8F0BC18C2C988541003CC0AD /* Tokenization DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,22 +200,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0BC1D12C988FDB003CC0AD /* Inter-ExtraBold.ttf in Resources */,
 				8F0BC17E2C988541003CC0AD /* Preview Assets.xcassets in Resources */,
 				8F0BC17B2C988541003CC0AD /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC1812C988541003CC0AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC18B2C988541003CC0AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8F0BC1C62C988FDB003CC0AD /* Inter-Thin.ttf in Resources */,
+				8F0BC1D22C988FDB003CC0AD /* Inter-ExtraLight.ttf in Resources */,
+				8F0BC1D42C988FDB003CC0AD /* Inter-SemiBold.ttf in Resources */,
+				8F0BC1D32C988FDB003CC0AD /* Inter-Black.ttf in Resources */,
+				8F0BC1C72C988FDB003CC0AD /* Inter-Bold.ttf in Resources */,
+				8F0BC1C42C988FDB003CC0AD /* Inter-Light.ttf in Resources */,
+				8F0BC1C52C988FDB003CC0AD /* SF-Arabic.ttf in Resources */,
+				8F0BC1C32C988FDB003CC0AD /* Inter-Medium.ttf in Resources */,
+				8F0BC1D02C988FDB003CC0AD /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +222,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0BC1792C988540003CC0AD /* ContentView.swift in Sources */,
+				8F0BC1AE2C988DB2003CC0AD /* BorderExtension.swift in Sources */,
+				8F0BC1792C988540003CC0AD /* SignUpView.swift in Sources */,
+				8F0BC1AA2C988DB2003CC0AD /* GradientExtension.swift in Sources */,
+				8F0BC1AC2C988DB2003CC0AD /* FontExtension.swift in Sources */,
+				8F0BC1F52C9DF2B9003CC0AD /* KeyboardResponsiveModifier.swift in Sources */,
+				8F0BC1AD2C988DB2003CC0AD /* ColorExtension.swift in Sources */,
+				8F0BC1F32C9DEDD2003CC0AD /* ConfirmationView.swift in Sources */,
+				8F0BC1A82C988DB2003CC0AD /* ShadowExtension.swift in Sources */,
+				8F0BC1A92C988DB2003CC0AD /* AppMeasures.swift in Sources */,
 				8F0BC1772C988540003CC0AD /* Tokenization_DemoApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC17F2C988541003CC0AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F0BC1882C988541003CC0AD /* Tokenization_DemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F0BC1892C988541003CC0AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F0BC1942C988541003CC0AD /* Tokenization_DemoUITestsLaunchTests.swift in Sources */,
-				8F0BC1922C988541003CC0AD /* Tokenization_DemoUITests.swift in Sources */,
+				8F0BC1AB2C988DB2003CC0AD /* RadiusExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8F0BC1852C988541003CC0AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F0BC1722C988540003CC0AD /* Tokenization Demo */;
-			targetProxy = 8F0BC1842C988541003CC0AD /* PBXContainerItemProxy */;
-		};
-		8F0BC18F2C988541003CC0AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F0BC1722C988540003CC0AD /* Tokenization Demo */;
-			targetProxy = 8F0BC18E2C988541003CC0AD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8F0BC1952C988541003CC0AD /* Debug */ = {
@@ -421,6 +365,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Tokenization Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tokenization-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +395,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Tokenization Demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tokenization-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,98 +412,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8F0BC19B2C988541003CC0AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.tokenization.demo.Tokenization-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokenization Demo.app/Tokenization Demo";
-			};
-			name = Debug;
-		};
-		8F0BC19C2C988541003CC0AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.tokenization.demo.Tokenization-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokenization Demo.app/Tokenization Demo";
-			};
-			name = Release;
-		};
-		8F0BC19E2C988541003CC0AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.tokenization.demo.Tokenization-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tokenization Demo";
-			};
-			name = Debug;
-		};
-		8F0BC19F2C988541003CC0AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jay.tokenization.demo.Tokenization-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tokenization Demo";
 			};
 			name = Release;
 		};
@@ -578,24 +432,6 @@
 			buildConfigurations = (
 				8F0BC1982C988541003CC0AD /* Debug */,
 				8F0BC1992C988541003CC0AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F0BC19A2C988541003CC0AD /* Build configuration list for PBXNativeTarget "Tokenization DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F0BC19B2C988541003CC0AD /* Debug */,
-				8F0BC19C2C988541003CC0AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F0BC19D2C988541003CC0AD /* Build configuration list for PBXNativeTarget "Tokenization DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F0BC19E2C988541003CC0AD /* Debug */,
-				8F0BC19F2C988541003CC0AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
