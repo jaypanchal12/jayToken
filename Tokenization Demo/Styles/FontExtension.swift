@@ -63,3 +63,19 @@ public extension Text {
             .font(Font.custom("Inter-Medium", size: 11))
     }
 }
+
+
+/* public extension Font {
+    static func textStyleLargeTitle() -> Font { Font.custom("Inter-Bold", size: 34) }
+    static func textStyleTitle() -> Font { Font.custom("Inter-Bold", size: 28) }
+    static func textStyleTitle2() -> Font { Font.custom("Inter-Bold", size: 22) }
+    static func textStyleTitle3() -> Font { Font.custom("Inter-Bold", size: 20) }
+    static func textStyleHeadline() -> Font { Font.custom("Inter-Bold", size: 17) }
+    static func textStyleSubHeadline() -> Font { Font.custom("Inter-Medium", size: 15) }
+    static func textStyleBody() -> Font { Font.custom("Inter-Bold", size: 17) }
+    static func textStyleCallout() -> Font { Font.custom("Inter-Regular", size: 16) }
+    static func textStyleCallout2() -> Font { Font.custom("Inter-Medium", size: 16) }
+    static func textStyleFootnote() -> Font { Font.custom("Inter-Medium", size: 13) }
+    static func textStyleCaption() -> Font { Font.custom("Inter-Medium", size: 12) }
+    static func textStyleCaption2() -> Font { Font.custom("Inter-Medium", size: 11) }
+} */

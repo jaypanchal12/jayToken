@@ -32,29 +32,28 @@ struct SignUpView: View {
         VStack(spacing: 14) {
             // Title
             Text("Sign up")
-                .font(.textStyleLargeTitle())
-                .foregroundColor(.token.black)
+                .textStyleLargeTitle()
+                .foregroundColor(.Token.black)
                 .padding(.top, 50)
 
             // Subtitle
             Text("Sign up to see the magic")
-                .font(.textStyleSubHeadline())
-                .foregroundColor(.token.systemGray2)
+                .textStyleSubHeadline()
+                .foregroundColor(.Token.systemGray2)
                 .padding(.bottom, 40)
 
             // Full Name TextField
             VStack(alignment: .leading) {
                 Text("Full Name")
-                    .font(.textStyleFootnote())
-                    .foregroundColor(.token.systemGray2)
+                    .textStyleFootnote()
+                    .foregroundColor(.Token.systemGray2)
                     .padding(.horizontal)
 
                 CustomTextField(
                     placeholder: "Full Name",
                     text: $fullName,
-                    font: isTypingFullName ? .textStyleBody() : .textStyleCallout(),
-                    placeholderColor: .token.systemGray2,
-                    borderColor: focusedField == .fullName ? .token.black : .token.systemGray5
+                    font: isTypingFullName,                  placeholderColor: .Token.systemGray2,
+                    borderColor: focusedField == .fullName ? .Token.black : .Token.systemGray5
                 )
                 .focused($focusedField, equals: .fullName)
                 .padding(.horizontal)
@@ -68,16 +67,16 @@ struct SignUpView: View {
             // Job Role TextField
             VStack(alignment: .leading) {
                 Text("Job Role Name")
-                    .font(.textStyleFootnote())
-                    .foregroundColor(.token.systemGray2)
+                    .textStyleFootnote()
+                    .foregroundColor(.Token.systemGray2)
                     .padding(.horizontal)
 
                 CustomTextField(
                     placeholder: "Job Role",
                     text: $jobRole,
-                    font: isTypingJobRole ? .textStyleBody() : .textStyleCallout(),
-                    placeholderColor: .token.systemGray2,
-                    borderColor: focusedField == .jobRole ? .token.black : .token.systemGray5
+                    font: isTypingJobRole,
+                    placeholderColor: .Token.systemGray2,
+                    borderColor: focusedField == .jobRole ? .Token.black : .Token.systemGray5
                 )
                 .focused($focusedField, equals: .jobRole)
                 .padding(.horizontal)
@@ -98,12 +97,12 @@ struct SignUpView: View {
                 }
             }) {
                 Text("Confirm")
-                    .font(.textStyleBody())
+                    .textStyleBody()
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(fullName.isEmpty || jobRole.isEmpty ? Color.token.systemGray5 : Color.token.kfhBrand)
-                    .foregroundColor(fullName.isEmpty || jobRole.isEmpty ? Color.token.disabled : Color.token.black)
-                    .cornerRadius(AppMeasures.borderRadiusRadiusSmall)
+                    .background(fullName.isEmpty || jobRole.isEmpty ? Color.Token.systemGray5 : Color.Token.kfhBrand)
+                    .foregroundColor(fullName.isEmpty || jobRole.isEmpty ? .Token.disabled : .Token.black)
+                    .cornerRadius(CGFloat (AppMeasures.borderRadiusRadiusSmall))
                     .padding(.horizontal, 20)
             }
             .disabled(fullName.isEmpty || jobRole.isEmpty)
@@ -133,7 +132,7 @@ struct ContentView_Previews: PreviewProvider {
 struct CustomTextField: View {
     var placeholder: String
     @Binding var text: String
-    var font: Font
+    var font: Bool
     var placeholderColor: Color
     var borderColor: Color
     
@@ -142,19 +141,28 @@ struct CustomTextField: View {
     var body: some View {
         ZStack(alignment: .leading) {
             if text.isEmpty {
-                Text(placeholder)
-                    .font(font)
-                    .foregroundColor(placeholderColor)
-                    .padding(.horizontal, 16) // Adjust padding to match the TextField
-                    .padding(.vertical, 12) // Adjust vertical padding
+                if font {
+                    Text(placeholder)
+                        .textStyleBody()
+                        .foregroundColor(placeholderColor)
+                        .padding(.horizontal, 16) // Adjust padding to match the TextField
+                        .padding(.vertical, 12) // Adjust vertical padding
+                }
+                else {
+                    Text(placeholder)
+                        .textStyleCallout()
+                        .foregroundColor(placeholderColor)
+                        .padding(.horizontal, 16) // Adjust padding to match the TextField
+                        .padding(.vertical, 12) // Adjust vertical padding
+                }
             }
-            TextField("", text: $text)
-                .font(font)
-                .padding()
-                .overlay(
-                    RoundedRectangle(cornerRadius: AppMeasures.borderRadiusRadiusSmall)
-                        .stroke(borderColor, lineWidth: 1.25)
-                )
+            
+                TextField("", text: $text)
+                    .padding()
+                    .overlay(
+                        RoundedRectangle(cornerRadius: CGFloat(AppMeasures.borderRadiusRadiusSmall))
+                            .stroke(borderColor, lineWidth: 1.25)
+                    )
         }
     }
 }
