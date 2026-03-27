@@ -24,7 +24,7 @@ struct ConfirmationView: View {
                 
                 Text("Awesome!!")
                     .font(.textStyleTitle())
-                    .foregroundColor(.token.black)
+                    .foregroundColor(.Token.black)
                     .bold()
                     .padding(.bottom, 4)
                 
