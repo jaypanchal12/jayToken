@@ -4,10 +4,9 @@ import SwiftUI
 public extension Color {
     
     static let Token = Color.TokenColor()
-    static let token = Color.TokenColor()
-
+    
     struct TokenColor {
-        public let kfhBrand = Color(.sRGB, red: 36/255, green: 96/255, blue: 79/255, opacity: 1) 
+        public let kfhBrand = Color(.sRGB, red: 36/255, green: 96/255, blue: 79/255, opacity: 0.5) 
         public let black = Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 1) 
         public let white = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let systemGray = Color(.sRGB, red: 142/255, green: 142/255, blue: 147/255, opacity: 1) 
@@ -21,5 +20,3 @@ public extension Color {
         public let systemRed = Color(.sRGB, red: 255/255, green: 59/255, blue: 48/255, opacity: 1) 
     }
 }
-
-

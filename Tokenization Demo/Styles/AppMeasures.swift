@@ -4,19 +4,19 @@ import SwiftUI
 public struct AppMeasures {
 
     // Space
-    public static let spaceSp1 = 2
-    public static let spaceSp2 = 4
-    public static let spaceSp3 = 6
-    public static let spaceSp4 = 8
-    public static let spaceSp5 = 10
-    public static let spaceSp6 = 14
-    public static let spaceSp7 = 18
-    public static let spaceSp8 = 22
-    public static let spaceSp9 = 28
-    public static let spaceSp10 = 38
+    public static let spaceSp1 = 2 
+    public static let spaceSp2 = 4 
+    public static let spaceSp3 = 6 
+    public static let spaceSp4 = 8 
+    public static let spaceSp5 = 10 
+    public static let spaceSp6 = 14 
+    public static let spaceSp7 = 18 
+    public static let spaceSp8 = 22 
+    public static let spaceSp9 = 28 
+    public static let spaceSp10 = 38 
 
     // Border Radius
-    public static let borderRadiusRadiusSmall: CGFloat = 8
-    public static let borderRadiusRadiusMedium: CGFloat = 10
-    public static let borderRadiusRadiusLarge: CGFloat = 18
+    public static let borderRadiusRadiusSmall = 8 
+    public static let borderRadiusRadiusMedium = 10 
+    public static let borderRadiusRadiusLarge = 18 
 }
