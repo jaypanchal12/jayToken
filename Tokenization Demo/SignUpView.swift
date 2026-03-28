@@ -32,20 +32,20 @@ struct SignUpView: View {
         VStack(spacing: 14) {
             // Title
             Text("Sign up")
-                .font(.textStyleLargeTitle())
+                .textStyleLargeTitle()
                 .foregroundColor(.token.black)
                 .padding(.top, 50)
 
             // Subtitle
             Text("Sign up to see the magic")
-                .font(.textStyleSubHeadline())
+                .textStyleSubHeadline()
                 .foregroundColor(.token.systemGray2)
                 .padding(.bottom, 40)
 
             // Full Name TextField
             VStack(alignment: .leading) {
                 Text("Full Name")
-                    .font(.textStyleFootnote())
+                    .textStyleFootnote()
                     .foregroundColor(.token.systemGray2)
                     .padding(.horizontal)
 
@@ -68,7 +68,7 @@ struct SignUpView: View {
             // Job Role TextField
             VStack(alignment: .leading) {
                 Text("Job Role Name")
-                    .font(.textStyleFootnote())
+                    .textStyleFootnote()
                     .foregroundColor(.token.systemGray2)
                     .padding(.horizontal)
 
@@ -98,7 +98,7 @@ struct SignUpView: View {
                 }
             }) {
                 Text("Confirm")
-                    .font(.textStyleBody())
+                    .textStyleBody()
                     .frame(maxWidth: .infinity)
                     .padding()
                     .background(fullName.isEmpty || jobRole.isEmpty ? Color.token.systemGray5 : Color.token.kfhBrand)
@@ -156,5 +156,16 @@ struct CustomTextField: View {
                         .stroke(borderColor, lineWidth: 1.25)
                 )
         }
+    }
+}
+
+
+//to update the text on the view
+private extension Font {
+    static func textStyleBody() -> Font {
+        .custom("Inter-Bold", size: 17)
+    }
+    static func textStyleCallout() -> Font {
+        .custom("Inter-Regular", size: 16)
     }
 }
