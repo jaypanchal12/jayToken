@@ -33,28 +33,28 @@ struct SignUpView: View {
             // Title
             Text("Sign up")
                 .textStyleLargeTitle()
-                .foregroundColor(.token.black)
+                .foregroundColor(.Token.black)
                 .padding(.top, 50)
 
             // Subtitle
             Text("Sign up to see the magic")
                 .textStyleSubHeadline()
-                .foregroundColor(.token.systemGray2)
+                .foregroundColor(.Token.systemGray2)
                 .padding(.bottom, 40)
 
             // Full Name TextField
             VStack(alignment: .leading) {
                 Text("Full Name")
                     .textStyleFootnote()
-                    .foregroundColor(.token.systemGray2)
+                    .foregroundColor(.Token.systemGray2)
                     .padding(.horizontal)
 
                 CustomTextField(
                     placeholder: "Full Name",
                     text: $fullName,
                     font: isTypingFullName ? .textStyleBody() : .textStyleCallout(),
-                    placeholderColor: .token.systemGray2,
-                    borderColor: focusedField == .fullName ? .token.black : .token.systemGray5
+                    placeholderColor: .Token.systemGray2,
+                    borderColor: focusedField == .fullName ? .Token.black : .Token.systemGray5
                 )
                 .focused($focusedField, equals: .fullName)
                 .padding(.horizontal)
@@ -69,15 +69,15 @@ struct SignUpView: View {
             VStack(alignment: .leading) {
                 Text("Job Role Name")
                     .textStyleFootnote()
-                    .foregroundColor(.token.systemGray2)
+                    .foregroundColor(.Token.systemGray2)
                     .padding(.horizontal)
 
                 CustomTextField(
                     placeholder: "Job Role",
                     text: $jobRole,
                     font: isTypingJobRole ? .textStyleBody() : .textStyleCallout(),
-                    placeholderColor: .token.systemGray2,
-                    borderColor: focusedField == .jobRole ? .token.black : .token.systemGray5
+                    placeholderColor: .Token.systemGray2,
+                    borderColor: focusedField == .jobRole ? .Token.black : .Token.systemGray5
                 )
                 .focused($focusedField, equals: .jobRole)
                 .padding(.horizontal)
@@ -101,8 +101,8 @@ struct SignUpView: View {
                     .textStyleBody()
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(fullName.isEmpty || jobRole.isEmpty ? Color.token.systemGray5 : Color.token.kfhBrand)
-                    .foregroundColor(fullName.isEmpty || jobRole.isEmpty ? Color.token.disabled : Color.token.black)
+                    .background(fullName.isEmpty || jobRole.isEmpty ? Color.Token.systemGray5 : Color.Token.kfhBrand)
+                    .foregroundColor(fullName.isEmpty || jobRole.isEmpty ? Color.Token.disabled : Color.Token.black)
                     .cornerRadius(CGFloat(AppMeasures.borderRadiusRadiusSmall))
                     .padding(.horizontal, 20)
             }
@@ -152,7 +152,10 @@ struct CustomTextField: View {
                 .font(font)
                 .padding()
                 .overlay(
-                    RoundedRectangle(cornerRadius: AppMeasures.borderRadiusRadiusSmall)
+                    RoundedRectangle(
+                        cornerRadius: CGFloat (
+                            AppMeasures.borderRadiusRadiusSmall)
+                        )
                         .stroke(borderColor, lineWidth: 1.25)
                 )
         }

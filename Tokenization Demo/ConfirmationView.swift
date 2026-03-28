@@ -24,12 +24,12 @@ struct ConfirmationView: View {
                 
                 Text("Awesome!!")
                     .textStyleTitle()
-                    .foregroundColor(.token.black)
+                    .foregroundColor(.Token.black)
                     .padding(.bottom, 4)
                 
                 Text("Thank you for joining this demo")
                     .textStyleSubHeadline()
-                    .foregroundColor(.token.systemGray2)
+                    .foregroundColor(.Token.systemGray2)
             }
             .padding()
             
@@ -47,8 +47,8 @@ struct ConfirmationView: View {
                     .textStyleBody()
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(Color.token.kfhBrand)
-                    .foregroundColor(.token.black)
+                    .background(Color.Token.kfhBrand)
+                    .foregroundColor(.Token.black)
                     .cornerRadius(8)
                     .padding(.horizontal, 16)
             }
