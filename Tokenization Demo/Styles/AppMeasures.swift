@@ -16,7 +16,7 @@ public struct AppMeasures {
     public static let spaceSp10 = 38 
 
     // Border Radius
-    public static let borderRadiusRadiusSmall = 8.0
-    public static let borderRadiusRadiusMedium = 10.0
-    public static let borderRadiusRadiusLarge = 18.0
+    public static let borderRadiusRadiusSmall = 8 
+    public static let borderRadiusRadiusMedium = 10 
+    public static let borderRadiusRadiusLarge = 18 
 }
