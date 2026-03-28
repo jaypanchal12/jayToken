@@ -103,7 +103,7 @@ struct SignUpView: View {
                     .padding()
                     .background(fullName.isEmpty || jobRole.isEmpty ? Color.token.systemGray5 : Color.token.kfhBrand)
                     .foregroundColor(fullName.isEmpty || jobRole.isEmpty ? Color.token.disabled : Color.token.black)
-                    .cornerRadius(AppMeasures.borderRadiusRadiusSmall)
+                    .cornerRadius(CGFloat(AppMeasures.borderRadiusRadiusSmall))
                     .padding(.horizontal, 20)
             }
             .disabled(fullName.isEmpty || jobRole.isEmpty)
