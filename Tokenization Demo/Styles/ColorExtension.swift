@@ -6,7 +6,7 @@ public extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
-        public let kfhBrand = Color(.sRGB, red: 126/255, green: 246/255, blue: 254/255, opacity: 1) 
+        public let kfhBrand = Color(.sRGB, red: 34/255, green: 136/255, blue: 34/255, opacity: 1) 
         public let black = Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 1) 
         public let white = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let systemGray = Color(.sRGB, red: 142/255, green: 142/255, blue: 147/255, opacity: 1) 
